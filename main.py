@@ -1,5 +1,4 @@
 import random
-import time
 
 def rolar(n_dados, faces):
     return [random.randint(1, faces) for _ in range(n_dados)]
@@ -28,7 +27,6 @@ def main():
         # rolagem
         resultado = rolar(n_dados, faces)
         print(f"Rolando {n_dados}d{faces}...")
-        time.sleep(0.5)
         print(f"Resultado: {resultado} -> soma = {sum(resultado)}\n")
 
 if __name__ == "__main__":

@@ -26,11 +26,15 @@ def main():
 
         # rolagem
         resultado = rolar(n_dados, faces)
+
+        # ordena do maior pro menor
+        resultado_ordenado = sorted(resultado, reverse=True)
+
         soma = sum(resultado)
         maior = max(resultado)
 
         print(f"Rolando dados {n_dados}d{faces}...")
-        print(f"Resultado: {resultado}")
+        print(f"Resultado: {resultado_ordenado}")
         print(f"Soma: {soma}")
         print(f"O maior valor é: {maior}")
 

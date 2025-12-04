@@ -26,8 +26,13 @@ def main():
 
         # rolagem
         resultado = rolar(n_dados, faces)
-        print(f"Rolando {n_dados}d{faces}...")
-        print(f"Resultado: {resultado} -> soma = {sum(resultado)}\n")
+        soma = sum(resultado)
+        maior = max(resultado)
+
+        print(f"Rolando dados {n_dados}d{faces}...")
+        print(f"Resultado: {resultado}")
+        print(f"Soma: {soma}")
+        print(f"O maior valor é: {maior}")
 
 if __name__ == "__main__":
     main()

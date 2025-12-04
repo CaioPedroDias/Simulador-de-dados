@@ -4,7 +4,7 @@ Um programa simples em Python para rolar dados no formato **XdY**, muito usado e
 
 ---
 
-## 📌 Como funciona
+## Como funciona
 
 * O usuário digita uma rolagem no formato:
 
@@ -24,7 +24,7 @@ Um programa simples em Python para rolar dados no formato **XdY**, muito usado e
 
 ---
 
-## ▶️ Executando
+## Executando
 
 Certifique-se de ter o Python instalado.
 Depois, rode o arquivo:
@@ -35,7 +35,7 @@ python main.py
 
 ---
 
-## 🛠️ Tecnologias usadas
+## Tecnologias usadas
 
 * Python 3
 * `random.randint()` para gerar as rolagens
